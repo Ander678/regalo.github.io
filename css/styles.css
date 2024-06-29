@@ -1,3 +1,5 @@
+/* Estilos generales */
+
 body {
     background-color: #000000;  /* Fondo negro */
     font-family: 'Arial', sans-serif;
@@ -58,4 +60,51 @@ h2 {
 .container h1:last-of-type {
     font-size: 2em;
     color: #ffcc00;  /* Amarillo claro para destacar */
+}
+
+/* Media queries para pantallas más pequeñas */
+
+@media only screen and (min-width: 551px) and (max-width: 680px) {
+    .container {
+        padding: 10px;
+    }
+
+    img {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        padding: 30px;
+    }
+
+    img {
+        margin: 8px 0;
+        border-width: 6px;  /* Reducir el grosor del borde en pantallas más pequeñas */
+    }
+
+    h1 {
+        font-size: 1.8em;  /* Reducir el tamaño del título principal */
+    }
+
+    h2 {
+        font-size: 1.0em;  /* Ajustar el tamaño del texto principal */
+    }
+
+    h3 {
+        font-size: 0.9em;  /* Ajustar el tamaño del texto de subtítulo */
+    }
 }
