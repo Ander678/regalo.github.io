@@ -86,7 +86,7 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 461px) and (max-width: 550px) {
     .container {
         padding: 30px;
     }
@@ -106,5 +106,29 @@ h2 {
 
     h3 {
         font-size: 0.9em;  /* Ajustar el tamaño del texto de subtítulo */
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .container {
+        padding: 30px;
+    }
+
+    img {
+        margin: 4px 0;
+        max-width: 75%;
+        border-width: 6px;  /* Reducir el grosor del borde en pantallas más pequeñas */
+    }
+
+    h1 {
+        font-size: 1.6em;  /* Reducir el tamaño del título principal */
+    }
+
+    h2 {
+        font-size: 0.8em;  /* Ajustar el tamaño del texto principal */
+    }
+
+    h3 {
+        font-size: 0.8em;  /* Ajustar el tamaño del texto de subtítulo */
     }
 }
