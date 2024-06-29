@@ -109,7 +109,7 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (min-width: 361px) and (max-width: 460px) {
     .container {
         padding: 30px;
     }
@@ -130,5 +130,53 @@ h2 {
 
     h3 {
         font-size: 0.8em;  /* Ajustar el tamaño del texto de subtítulo */
+    }
+}
+
+@media only screen and (min-width: 316px) and  (max-width: 360px) {
+    .container {
+        padding: 30px;
+    }
+
+    img {
+        margin: 4px 0;
+        max-width: 75%;
+        border-width: 6px;  /* Reducir el grosor del borde en pantallas más pequeñas */
+    }
+
+    h1 {
+        font-size: 1.4em;  /* Reducir el tamaño del título principal */
+    }
+
+    h2 {
+        font-size: 0.7em;  /* Ajustar el tamaño del texto principal */
+    }
+
+    h3 {
+        font-size: 0.6em;  /* Ajustar el tamaño del texto de subtítulo */
+    }
+}
+
+@media only screen and (max-width: 315px) {
+    .container {
+        padding: 30px;
+    }
+
+    img {
+        margin: 4px 0;
+        max-width: 75%;
+        border-width: 6px;  /* Reducir el grosor del borde en pantallas más pequeñas */
+    }
+
+    h1 {
+        font-size: 1.4em;  /* Reducir el tamaño del título principal */
+    }
+
+    h2 {
+        font-size: 0.6em;  /* Ajustar el tamaño del texto principal */
+    }
+
+    h3 {
+        font-size: 0.6em;  /* Ajustar el tamaño del texto de subtítulo */
     }
 }
